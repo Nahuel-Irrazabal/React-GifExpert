@@ -1,4 +1,4 @@
-import { GiftCard } from './GiftCard'
+import { GifCard } from './GifCard'
 import { useFetchGift } from './Hooks/useFetchGift'
 
 export const GifGrid = ({ category }) => {
@@ -14,7 +14,7 @@ export const GifGrid = ({ category }) => {
       <div className='card-grid'>
         {
           images.map( ( image ) => (
-            <GiftCard 
+            <GifCard 
               key={image.id}
               {...image}
             /> 
